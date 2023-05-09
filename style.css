@@ -1,15 +1,36 @@
 
+h1, h2 {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: midnightblue ;
+    min-height: 100vh;
+}
 
 #gameboard {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
+    justify-content: center;
   }
     
-    #tile {
+.top { border-top: 3px solid #e4e4e4;}
+.bottom { border-bottom: 3px solid #e4e4e4;}
+.left { border-left: 3px solid #e4e4e4;}
+.right { border-right: 3px solid #e4e4e4;}
+
+    .tile {
       display : flex;
       width   : 100px;
       height  : 100px;
-      border  : 1px solid #e4e4e4;
+      justify-content: center;
+      align-items: center;
       
       color       : #e4e4e4;
       font-size   : 5em;
@@ -18,3 +39,8 @@
       padding     : 20px;
     } 
   
+button {
+    margin: 48px 40%;
+    padding: 20px;
+    cursor: pointer;
+}

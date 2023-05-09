@@ -6,25 +6,31 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script defer src="game.js"></script>
 </head>
 
 <body>
+    <header>
   <b><h1>TIC TAC TOE</h1></b>
+  </header>
   
-  <div id='gameboard'>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
-    <div id='tile'></div>
+  <main>
+    <h2>Player X's Turn</h2>
 
-  </div>
+    <section id="gameboard">
+    <div data-index="0" class='tile bottom'>x</div>
+    <div data-index="1"  class='tile bottom right left'></div>
+    <div data-index="2"  class='tile bottom'></div>
+    <div data-index="3"  class='tile'>o</div>
+    <div data-index="4"  class='tile right left'></div>
+    <div data-index="5"  class='tile'></div>
+    <div data-index="6"  class='tile top'></div>
+    <div data-index="7"  class='tile top right left'>x</div>
+    <div data-index="8" class='tile top'></div>
+</section>
+   </main>
 
-  <button id="restartBtn">Play Again</button>
+  <button>Play Again</button>
 </body>
 
 </html>
