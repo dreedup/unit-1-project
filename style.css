@@ -1,5 +1,5 @@
 
-h1, h2 {
+h1, h2, h3, h4 {
     display: flex;
     justify-content: center;
     color: whitesmoke
@@ -44,3 +44,4 @@ button {
     padding: 20px;
     cursor: pointer;
 }
+
