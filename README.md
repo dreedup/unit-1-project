@@ -18,6 +18,8 @@ Once a player has collected 3 wins he will be titled CHAMPION and the game is ov
 
 After Champion is decided you can start a NEW GAME by Pressing the NEW GAME BUTTON!
 
+GET STARTED HERE: https://dreedup.github.io/unit-1-project/
+
 SCREENSHOT
 <img width="969" alt="Screen Shot 2023-05-13 at 8 51 25 AM" src="https://github.com/dreedup/unit-1-project/assets/127633342/4ffb96a2-e4ed-484d-8092-6acd58ef5ad4">
 
